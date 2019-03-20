@@ -1,0 +1,12 @@
+.btn {
+    vertical-align: top;
+    background-color: coral;
+    border: none;
+    border-radius: 12px;
+    margin: 40px 25px;
+    width: 180px;
+    font: 600;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: azure;
+}

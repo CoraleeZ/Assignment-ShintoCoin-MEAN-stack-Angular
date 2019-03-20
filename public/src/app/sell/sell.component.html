@@ -1,0 +1,12 @@
+<h1>Sell ShintoCoin</h1>
+<p>Current ShintoCoin Value:${{value}}</p>
+<p>
+    Number of ShintoCoin Owned:{{coin}}
+</p>
+
+<form (submit)="sell()">
+    <p>Your want sell:</p>
+    <input type="text" name="sel" [(ngModel)]='sel.coin'>
+    <button class="btn">Sell</button>
+</form>
+{{sel|json}}

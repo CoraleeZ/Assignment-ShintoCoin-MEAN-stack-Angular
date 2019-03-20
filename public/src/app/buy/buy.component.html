@@ -1,0 +1,12 @@
+<h1>Buy ShintoCoin</h1>
+<p>Current ShintoCoin Value:${{value}}</p>
+<p>
+    Number of ShintoCoin Owned:{{coin}}
+</p>
+
+<form (submit)="buy()">
+    <p>Your want Buy:</p>
+    <input type="text" name="bu" [(ngModel)]='bu.coin'>
+    <button class="btn">Buy</button>
+</form>
+{{bu|json}}

@@ -1,0 +1,11 @@
+.btn {
+    background-color: rgb(175, 160, 155);
+    border: none;
+    border-radius: 12px;
+    width: 120px;
+    font: 600;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: azure;
+    margin-left: 20px
+}
